@@ -60,4 +60,11 @@ if marks >= 90:
 else:
     print("Better luck next time")
 
-
+#If - elif - else statement
+marks = 50
+if marks >= 40:
+    print("You pass Exam")
+elif marks >= 90:
+    print("You have top the Exam")    
+else:
+    print("Need to work hard")
