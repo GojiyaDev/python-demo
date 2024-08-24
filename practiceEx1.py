@@ -43,3 +43,21 @@ print("Before coversion",type(number))
 number = float(number)
 print("After converstion value is :",number)
 print("After converstion", type(number))
+
+#conditional statement
+#if the Statement
+
+marks = 70
+if marks >= 90:
+    print("you will get mobile phone")
+print("thank you")
+
+#if else statement
+
+marks = 70
+if marks >= 90:
+    print("you will get new mobile phone")
+else:
+    print("Better luck next time")
+
+
