@@ -37,8 +37,5 @@ entry.pack(pady=5)  # Add padding around the entry field
 button = tk.Button(root, text="Submit", command=buttonCall, font=("Helvetica", 12), padx=10, pady=5, bg=button_color, fg=text_color, activebackground=button_hover_color)
 button.pack(pady=10)  # Add padding around the button
 
-# Bind hover events to the button
-
-
 # Start the GUI event loop
 root.mainloop()
